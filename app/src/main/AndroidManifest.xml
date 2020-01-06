@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?><!-- suppress ALL --><!-- suppress ALL -->
+
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="dev.edmt.investoraplikasi">
 
@@ -10,8 +11,8 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".login.Login"
-            android:label="SFSS INVESTOR"
+            android:name=".investor_LoginActivity"
+            android:label="Investor"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -20,17 +21,15 @@
             </intent-filter>
         </activity>
         <activity android:name=".InvestorMainActivity" />
+        <activity android:name=".investor_RegisterActivity" />
         <activity android:name=".investor_mapslahan" />
         <activity android:name=".investor_belislot" />
         <activity android:name=".investor_tarikuang" />
+        <activity android:name=".profile_nav" /><!--
+        <activity android:name=".a_verifikasi" />
+        <activity android:name=".m_verifikasi" />-->
+        <activity android:name=".v_verifikasi" />
         <activity android:name=".investor_verifikasi" />
-        <activity android:name=".chat.MainActivity" />
-        <activity android:name=".chat.ChatsFragment" />
-        <activity android:name=".chat.FriendsFragment" />
-        <activity android:name=".chat.ChatActivity" />
-        <activity android:name=".chat.ProfileActivity" />
-        <activity android:name=".chat.MessageAdapter" />
-        <activity android:name=".chat.UsersActivity"></activity>
     </application>
 
 </manifest>

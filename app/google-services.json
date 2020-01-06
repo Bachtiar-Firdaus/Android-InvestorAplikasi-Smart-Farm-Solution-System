@@ -1,27 +1,175 @@
 {
   "project_info": {
-    "project_number": "196508169706",
-    "firebase_url": "https://chatadminok.firebaseio.com",
-    "project_id": "chatadminok",
-    "storage_bucket": "chatadminok.appspot.com"
+    "project_number": "559578665967",
+    "firebase_url": "https://smartfarmsolutionsystem.firebaseio.com",
+    "project_id": "smartfarmsolutionsystem",
+    "storage_bucket": "smartfarmsolutionsystem.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:196508169706:android:36383f58e8505249",
+        "mobilesdk_app_id": "1:559578665967:android:36383f58e8505249",
         "android_client_info": {
           "package_name": "dev.edmt.aplikasipetanifix"
         }
       },
       "oauth_client": [
         {
-          "client_id": "196508169706-ui1uu7r4bn7pb8t6dk30nviailufb60k.apps.googleusercontent.com",
+          "client_id": "559578665967-thtp56ohr7sqlvb1mipb5s6b9cluf6na.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "dev.edmt.aplikasipetanifix",
+            "certificate_hash": "68e2a1add6c81db43983be3f8ed8b6006388996d"
+          }
+        },
+        {
+          "client_id": "559578665967-pki9fuc7ik55esbjb5e9rs1gfkfg2ed8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "dev.edmt.aplikasipetanifix",
+            "certificate_hash": "54a4cc220f548a4e5144e82bf3aaa158dd309d71"
+          }
+        },
+        {
+          "client_id": "559578665967-090e3md7p1l58bfrej3tp4tsqr6440vl.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyCXDccI0Ml5WXLvHz7xCWlO0cpzBW4WxPc"
+          "current_key": "AIzaSyBTCnDFSt6mh3oegc9wPvT7qxdMCT1Qnfk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "559578665967-090e3md7p1l58bfrej3tp4tsqr6440vl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:559578665967:android:88f0586cc0512822",
+        "android_client_info": {
+          "package_name": "id.web.twoh.twohfirebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "559578665967-l0bl3fcr9k0o1r6lm169tr4pq0vf6jd6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "id.web.twoh.twohfirebase",
+            "certificate_hash": "68e2a1add6c81db43983be3f8ed8b6006388996d"
+          }
+        },
+        {
+          "client_id": "559578665967-090e3md7p1l58bfrej3tp4tsqr6440vl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBTCnDFSt6mh3oegc9wPvT7qxdMCT1Qnfk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "559578665967-090e3md7p1l58bfrej3tp4tsqr6440vl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:559578665967:android:eb692cbab741de95",
+        "android_client_info": {
+          "package_name": "dev.edmt.petaniaplikasi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "559578665967-7msd5fh4lkaj2n1414iueti9c5r20i6d.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "dev.edmt.petaniaplikasi",
+            "certificate_hash": "5b1b1c733b3972589b426b455dcf990ca9621fa0"
+          }
+        },
+        {
+          "client_id": "559578665967-apep23pap37726sov1ibeqjqomen2ke6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "dev.edmt.petaniaplikasi",
+            "certificate_hash": "68e2a1add6c81db43983be3f8ed8b6006388996d"
+          }
+        },
+        {
+          "client_id": "559578665967-090e3md7p1l58bfrej3tp4tsqr6440vl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBTCnDFSt6mh3oegc9wPvT7qxdMCT1Qnfk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "559578665967-090e3md7p1l58bfrej3tp4tsqr6440vl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:559578665967:android:db9f48398f6426b8",
+        "android_client_info": {
+          "package_name": "com.example.r_luciver.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "559578665967-090e3md7p1l58bfrej3tp4tsqr6440vl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBTCnDFSt6mh3oegc9wPvT7qxdMCT1Qnfk"
         }
       ],
       "services": {
@@ -39,28 +187,20 @@
     },
     {
       "client_info": {
-        "mobilesdk_app_id": "1:196508169706:android:64fcda983dc166a7",
+        "mobilesdk_app_id": "1:559578665967:android:64fcda983dc166a7",
         "android_client_info": {
           "package_name": "in.tvac.akshaye.lapitchat"
         }
       },
       "oauth_client": [
         {
-          "client_id": "196508169706-ecqnqtkk8mtv2fsiii433i60tpfcselk.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "in.tvac.akshaye.lapitchat",
-            "certificate_hash": "87b3ba1263fd43c06b66cff38fc26812b3422900"
-          }
-        },
-        {
-          "client_id": "196508169706-ui1uu7r4bn7pb8t6dk30nviailufb60k.apps.googleusercontent.com",
+          "client_id": "559578665967-090e3md7p1l58bfrej3tp4tsqr6440vl.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyCXDccI0Ml5WXLvHz7xCWlO0cpzBW4WxPc"
+          "current_key": "AIzaSyBTCnDFSt6mh3oegc9wPvT7qxdMCT1Qnfk"
         }
       ],
       "services": {
@@ -68,13 +208,8 @@
           "status": 1
         },
         "appinvite_service": {
-          "status": 2,
-          "other_platform_oauth_client": [
-            {
-              "client_id": "196508169706-ui1uu7r4bn7pb8t6dk30nviailufb60k.apps.googleusercontent.com",
-              "client_type": 3
-            }
-          ]
+          "status": 1,
+          "other_platform_oauth_client": []
         },
         "ads_service": {
           "status": 2
@@ -83,28 +218,20 @@
     },
     {
       "client_info": {
-        "mobilesdk_app_id": "1:196508169706:android:c96d972c1f5688d8",
+        "mobilesdk_app_id": "1:559578665967:android:c96d972c1f5688d8",
         "android_client_info": {
           "package_name": "dev.edmt.investoraplikasi"
         }
       },
       "oauth_client": [
         {
-          "client_id": "196508169706-v54ienul1odob4ods3jh4hf10l4ka44n.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "dev.edmt.investoraplikasi",
-            "certificate_hash": "87b3ba1263fd43c06b66cff38fc26812b3422900"
-          }
-        },
-        {
-          "client_id": "196508169706-ui1uu7r4bn7pb8t6dk30nviailufb60k.apps.googleusercontent.com",
+          "client_id": "559578665967-090e3md7p1l58bfrej3tp4tsqr6440vl.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyCXDccI0Ml5WXLvHz7xCWlO0cpzBW4WxPc"
+          "current_key": "AIzaSyBTCnDFSt6mh3oegc9wPvT7qxdMCT1Qnfk"
         }
       ],
       "services": {
@@ -115,7 +242,7 @@
           "status": 2,
           "other_platform_oauth_client": [
             {
-              "client_id": "196508169706-ui1uu7r4bn7pb8t6dk30nviailufb60k.apps.googleusercontent.com",
+              "client_id": "559578665967-090e3md7p1l58bfrej3tp4tsqr6440vl.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="dev.edmt.investoraplikasi.profile_nav">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <!--
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="20dp"
+                    android:alpha="0.2"
+                    android:background="@color/white">
+
+                </RelativeLayout>-->
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:paddingTop="10dp"
+                        android:padding="10dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical"
+                            android:paddingTop="10dp"
+                            android:layout_margin="20dp">
+
+
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Profile"
+                                android:textAlignment="center"
+                                android:textSize="30dp"
+                                android:textStyle="bold"/>
+
+                            <EditText
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="40dp"
+                                android:background="#F5F5F5"
+                                android:drawablePadding="16dp"
+                                android:drawableTint="#333333"
+                                android:hint="Nama "
+                                android:id="@+id/p_nama"
+                                android:padding="10dp"
+                                android:textColor="@color/black"
+                                android:textColorHint="#c6c6c6" />
+
+                            <EditText
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="15dp"
+                                android:background="#F5F5F5"
+                                android:drawablePadding="16dp"
+                                android:drawableTint="#333333"
+                                android:hint="Nik"
+                                android:padding="10dp"
+                                android:id="@+id/p_nik"
+                                android:textColor="@color/black"
+                                android:textColorHint="#c6c6c6" />
+
+                            <EditText
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="15dp"
+                                android:background="#F5F5F5"
+                                android:drawablePadding="16dp"
+                                android:drawableTint="#333333"
+                                android:hint="No hp"
+                                android:padding="10dp"
+                                android:id="@+id/p_nohp"
+                                android:textColor="@color/black"
+                                android:textColorHint="#c6c6c6" />
+
+
+
+                            <EditText
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="10dp"
+                                android:background="#F5F5F5"
+                                android:drawablePadding="16dp"
+                                android:drawableTint="#333333"
+                                android:hint="Alamat"
+                                android:id="@+id/p_alamat"
+                                android:padding="10dp"
+                                android:textColor="@color/black"
+                                android:textColorHint="#c6c6c6" />
+
+                            <EditText
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="15dp"
+                                android:background="#F5F5F5"
+                                android:drawablePadding="16dp"
+                                android:drawableTint="#333333"
+                                android:hint="Email"
+                                android:padding="10dp"
+                                android:id="@+id/p_email"
+                                android:textColor="@color/black"
+                                android:textColorHint="#c6c6c6" />
+
+                            <EditText
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="15dp"
+                                android:background="#F5F5F5"
+                                android:drawablePadding="16dp"
+                                android:drawableTint="#333333"
+                                android:hint="Jenis Bank"
+                                android:padding="10dp"
+                                android:id="@+id/p_jenisbank"
+                                android:textColor="@color/black"
+                                android:textColorHint="#c6c6c6" />
+
+                            <EditText
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="15dp"
+                                android:background="#F5F5F5"
+                                android:drawablePadding="16dp"
+                                android:drawableTint="#333333"
+                                android:hint="No Rekening"
+                                android:padding="10dp"
+                                android:id="@+id/p_norek"
+                                android:textColor="@color/black"
+                                android:textColorHint="#c6c6c6" />
+
+                            <Button
+                                android:layout_width="match_parent"
+                                android:layout_height="45dp"
+                                android:layout_marginTop="35dp"
+                                android:id="@+id/p_ubah"
+                                android:text="daftar"
+                                android:alpha="0.9"
+                                android:textColor="@color/white"
+                                android:textStyle="bold"
+                                android:background="#3F51B5"/>
+
+
+
+                        </LinearLayout>
+
+
+
+
+
+                    </LinearLayout>
+
+                </ScrollView>
+
+            </android.support.v7.widget.CardView>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>

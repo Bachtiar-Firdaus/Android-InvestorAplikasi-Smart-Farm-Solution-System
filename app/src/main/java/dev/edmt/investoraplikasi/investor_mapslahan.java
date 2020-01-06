@@ -52,7 +52,7 @@ public class investor_mapslahan extends AppCompatActivity
 
         if (id == R.id.nav_custumerservice) {
             // Handle the camera action
-        } else if (id == R.id.nav_tentang) {
+        } else if (id == R.id.nav_profile) {
 
         } else if (id == R.id.nav_logout) {
 

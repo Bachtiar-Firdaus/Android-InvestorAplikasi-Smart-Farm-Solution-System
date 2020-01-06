@@ -8,8 +8,8 @@
             android:id="@+id/nav_custumerservice"
             android:title="Custumer Service" />
         <item
-            android:id="@+id/nav_tentang"
-            android:title="Tentang" />
+            android:id="@+id/nav_profile"
+            android:title="Profile" />
         <item
             android:id="@+id/nav_logout"
             android:title="Logout" />

@@ -40,7 +40,7 @@ public class investor_SectionsPagerAdapter extends FragmentPagerAdapter {
             case 0:
                 return "Beranda";
             case 1:
-                return "Profile";
+                return "Tentang";
             default:
                 return null;
         }

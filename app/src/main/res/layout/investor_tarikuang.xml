@@ -4,7 +4,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:id="@+id/drawer_layout"
     tools:context="dev.edmt.investoraplikasi.investor_tarikuang">
 
     <LinearLayout
@@ -12,35 +11,6 @@
         android:layout_height="match_parent"
         android:orientation="vertical">
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content">
-
-            <RelativeLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content">
-
-                <android.support.v7.widget.Toolbar
-                    android:id="@+id/toolbar"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:background="@color/white_tipis">
-
-                </android.support.v7.widget.Toolbar>
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_above="@+id/main_tabs"
-                    android:layout_centerHorizontal="true"
-                    android:paddingTop="12dp"
-                    android:text="Investor"
-                    android:textAlignment="center"
-                    android:textSize="20dp"
-                    android:textStyle="bold" />
-
-            </RelativeLayout>
-        </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -50,8 +20,8 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
-                android:layout_weight="0.17"
-                android:background="@color/abuabu_tipis"
+                android:layout_weight="0.15"
+                android:background="#3F51B5"
                 android:orientation="horizontal">
 
                 <LinearLayout
@@ -70,12 +40,13 @@
 
                             android:layout_height="match_parent">
 
-                            <ImageView
-                                android:layout_width="80dp"
-                                android:layout_height="80dp"
-                                android:layout_centerHorizontal="true"
-                                android:scaleType="fitXY"
-                                android:src="@drawable/tarikuang" />
+                            <!--    <ImageView
+                                    android:layout_width="60dp"
+                                    android:layout_height="50dp"
+                                    android:layout_centerVertical="true"
+                                    android:layout_centerHorizontal="true"
+                                    android:scaleType="fitXY"
+                                    android:src="@drawable/tarikuang" />-->
 
                         </RelativeLayout>
 
@@ -92,6 +63,7 @@
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
                             android:text="Tarik uang"
+                            android:textColor="@color/white"
                             android:textSize="20sp"
                             android:textStyle="bold" />
 
@@ -127,7 +99,7 @@
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
-                            android:padding="5dp"
+                            android:padding="10dp"
                             android:text="Saldo"
                             android:textColor="@color/black"
                             android:textSize="13sp" />
@@ -135,13 +107,22 @@
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
-                            android:padding="5dp"
+                            android:padding="10dp"
                             android:text="Tarik Sejumlah"
+                            android:textColor="@color/black"
+                            android:textSize="13sp" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:padding="10dp"
+                            android:text="Dalam proses"
                             android:textColor="@color/black"
                             android:textSize="13sp" />
 
 
                     </LinearLayout>
+
 
                     <LinearLayout
                         android:layout_width="0dp"
@@ -150,23 +131,34 @@
                         android:orientation="vertical">
 
                         <TextView
+                            android:id="@+id/tv_saldo"
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
-                            android:padding="5dp"
-                            android:text=": "
+                            android:hint="0"
+                            android:padding="10dp"
                             android:textColor="@color/black"
                             android:textSize="13sp" />
 
                         <EditText
+                            android:id="@+id/et_tarik"
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
-                            android:padding="5dp"
+                            android:hint="0"
+                            android:padding="10dp"
+                            android:textColor="@color/black"
+                            android:textSize="13sp" />
+
+                        <TextView
+                            android:id="@+id/tv_proses"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:hint="0"
+                            android:padding="10dp"
                             android:textColor="@color/black"
                             android:textSize="13sp" />
 
 
                     </LinearLayout>
-
 
                 </LinearLayout>
 
@@ -176,16 +168,30 @@
 
                     <RelativeLayout
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content">
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="25dp"
+                        android:gravity="right">
+
+
+
+                        <Button
+                            android:layout_width="120dp"
+                            android:layout_height="35dp"
+                            android:text="batal tarik"
+                            android:layout_margin="10dp"
+                            android:textColor="@color/white"
+                            android:id="@+id/bt_bataltarik"
+                            android:background="#3F51B5"/>
 
                         <Button
                             android:layout_width="100dp"
-                            android:layout_height="30dp"
-                            android:layout_alignParentRight="true"
-                            android:layout_marginRight="20dp"
+                            android:layout_height="35dp"
                             android:text="Tarik"
-                            android:textSize="10sp"
-                            android:background="@color/ijo"/>
+                            android:layout_margin="10dp"
+                            android:background="#3F51B5"
+                            android:textColor="@color/white"
+                            android:layout_toRightOf="@id/bt_bataltarik"
+                            android:id="@+id/bt_tarik"/>
 
                     </RelativeLayout>
 
@@ -198,16 +204,7 @@
         </LinearLayout>
 
 
-
     </LinearLayout>
 
-    <android.support.design.widget.NavigationView
-        android:id="@+id/nav_view"
-        android:layout_width="wrap_content"
-        android:layout_height="match_parent"
-        android:layout_gravity="start"
-        android:fitsSystemWindows="true"
-        app:headerLayout="@layout/investor_nav_header_main"
-        app:menu="@menu/activity_main_drawer" />
 
 </android.support.v4.widget.DrawerLayout>
